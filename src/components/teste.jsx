@@ -20,7 +20,7 @@ export default function Teste() {
 
     return (
         <div className="w-full flex flex-col justify-center items-center py-10 gap-5">
-            {images && images.map((image, key) => (
+{/*             {images && images.map((image, key) => (
                 <div className="flex" key={key}>
                     <Link href={image.web_view_link} target="_blank">
                         <div className="bg-[#04668C] rounded-lg px-5 py-1 cursor-pointer">
@@ -29,6 +29,6 @@ export default function Teste() {
                     </Link>
                 </div>
             ))}
-        </div>
+ */}        </div>
     )
 }

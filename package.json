@@ -9,7 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "axios": "^1.12.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.5",
+    "@mui/material": "^7.3.5",
+    "@mui/x-data-grid": "^8.18.0",
+    "axios": "^1.13.2",
+    "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12",
     "next": "15.5.4",
     "react": "19.1.0",
     "react-dom": "19.1.0"
@@ -17,6 +24,8 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.5",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
     "tailwindcss": "^4"
